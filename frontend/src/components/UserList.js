@@ -1,6 +1,8 @@
 console.log("UserList component is loading...");
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "axios"; // ✅ Now safe with axios@0.27.2
+
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const API_URL = "http://localhost:3000/users";
